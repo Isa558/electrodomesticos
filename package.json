@@ -1,6 +1,5 @@
 {
   "scripts":{
-    "build": "npm run clean && copyfiles -u 1 src/**/* dist/",
     "start": "node api.js",
     "start:dev": "node --watch api.js"
   },
