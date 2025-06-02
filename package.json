@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node api.js",
+    "start:dev": "node --watch api.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase": "^11.7.3",
+    "firebase-admin": "^13.4.0"
+  }
+}
