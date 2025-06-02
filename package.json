@@ -1,7 +1,7 @@
 {
   "scripts":{
-    "clean": "rimraf dist",
-  "build": "npm run clean && copyfiles -u 1 src/**/* dist/",
+   "clean": "rimraf dist",
+  "build": "npm run clean && mkdir dist && copyfiles \"*.js\" \"**/*.js\" dist/",
     "start": "node api.js",
     "start:dev": "node --watch api.js"
   },
