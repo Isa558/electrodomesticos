@@ -1,7 +1,5 @@
 {
-  "scripts":{
-   "clean": "rimraf dist",
-  "build": "npm run clean && mkdir dist && copyfiles \"*.js\" \"**/*.js\" dist/",
+  "scripts": {
     "start": "node api.js",
     "start:dev": "node --watch api.js"
   },
@@ -10,8 +8,10 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "firebase": "^11.7.3",
-    "firebase-admin": "^13.4.0",
-     "rimraf": "^6.0.1",
-     "copyfiles": "^2.4.1"
+    "firebase-admin": "^13.4.0"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^6.0.1"
   }
 }
